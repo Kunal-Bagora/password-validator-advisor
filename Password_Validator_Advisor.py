@@ -29,16 +29,12 @@ def strength(pas):
 
     score = sum(conditions)
 
-    if score <= 2:
-        return "Very Weak"
-    elif score <= 4:
+    if score <= 5:
         return "Weak"
-    elif score <= 5:
-        return "Moderate"
     elif score <= 6:
-        return "Strong"
+        return "Moderate"
     elif score <= 7:
-        return "Very Strong"
+        return "Strong"
     else:
         return "Excellent"
 
